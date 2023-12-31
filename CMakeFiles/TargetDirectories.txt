@@ -1,0 +1,3 @@
+/Users/elliottmiller/Projects/tremolo/libDaisy/CMakeFiles/daisy.dir
+/Users/elliottmiller/Projects/tremolo/libDaisy/CMakeFiles/edit_cache.dir
+/Users/elliottmiller/Projects/tremolo/libDaisy/CMakeFiles/rebuild_cache.dir
