@@ -8,6 +8,9 @@ hid/audio \
 per/gpio \
 per/sai \
 per/sdmmc \
+reusable/console \
+reusable/consoleIo \
+reusable/consoleCommands \
 util/bsp_sd_diskio \
 util/hal_map \
 util/oled_fonts \
@@ -59,6 +62,9 @@ per/spi \
 per/spiMultislave \
 per/tim \
 per/uart \
+reusable/console \
+reusable/consoleIo \
+reusable/consoleCommands \
 ui/UI \
 ui/AbstractMenu \
 ui/FullScreenItemMenu \
@@ -290,6 +296,7 @@ C_DEFS =  \
 C_INCLUDES = \
 -I$(MODULE_DIR) \
 -I$(MODULE_DIR)/sys \
+-I$(MODULE_DIR)/reusable \
 -I$(MODULE_DIR)/usbd \
 -I$(MODULE_DIR)/usbh \
 -IDrivers/CMSIS/Include \

@@ -5,6 +5,11 @@
 #ifndef CONSOLE_H
 #define CONSOLE_H
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
 #include <stdint.h>
 
 // User configuration
@@ -51,5 +56,9 @@ eCommandResult_T ConsoleSendParamHexUint8(uint8_t parameterUint8);
 eCommandResult_T ConsoleSendString(const char *buffer); // must be null terminated
 eCommandResult_T ConsoleSendLine(const char *buffer); // must be null terminated
 eCommandResult_T LEDModeParam(const char * buffer, const uint8_t parameterNumber, ledMode* parameterLED);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // CONSOLE_H

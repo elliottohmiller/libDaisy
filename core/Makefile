@@ -129,6 +129,7 @@ C_INCLUDES ?=
 C_INCLUDES += \
 -I$(LIBDAISY_DIR) \
 -I$(LIBDAISY_DIR)/src/ \
+-I$(LIBDAISY_DIR)/src/reusable \
 -I$(LIBDAISY_DIR)/src/sys \
 -I$(LIBDAISY_DIR)/src/usbd \
 -I$(LIBDAISY_DIR)/src/usbh \

@@ -18,7 +18,6 @@
 #define NULL_CHAR            '\0'
 #define CR_CHAR              '\r'
 #define LF_CHAR              '\n'
-
 // global variables
 char mReceiveBuffer[CONSOLE_COMMAND_MAX_LENGTH];
 uint32_t mReceivedSoFar;

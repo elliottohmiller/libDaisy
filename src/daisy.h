@@ -16,6 +16,8 @@
 #include "dev/sr_4021.h"
 #include "hid/audio.h"
 #include "util/unique_id.h"
+#include "reusable/console.h"
+
 #ifdef __cplusplus
 #include "per/i2c.h"
 #include "per/adc.h"

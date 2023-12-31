@@ -61,6 +61,9 @@ add_library(${TARGET} STATIC
     ${MODULE_DIR}/per/spiMultislave.cpp
     ${MODULE_DIR}/per/tim.cpp
     ${MODULE_DIR}/per/uart.cpp
+    ${MODULE_DIR}/reusable/console.c
+    ${MODULE_DIR}/reusable/consoleIo.c
+    ${MODULE_DIR}/reusable/consoleCommands.c
     ${MODULE_DIR}/ui/AbstractMenu.cpp
     ${MODULE_DIR}/ui/FullScreenItemMenu.cpp
     ${MODULE_DIR}/ui/UI.cpp
@@ -211,6 +214,7 @@ target_include_directories(${TARGET} PUBLIC
     src/sys
     src/usbd
     src/usbh
+    src/reusable
     )
 
 set_target_properties(${TARGET} PROPERTIES
