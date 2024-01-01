@@ -18,6 +18,7 @@ eConsoleError ConsoleIoReceive(uint8_t *buffer, const uint32_t bufferLength, uin
 	
 	if (USBD_CDC_ReceivePacket(&hUsbDeviceFS) == USBD_OK)
 	{
+		HAL_Delay(5);
 		CDC_Transmit_FS(buffer, (strlen(buffer)));
 	}
 
